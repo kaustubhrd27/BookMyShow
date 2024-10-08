@@ -8,7 +8,7 @@ import java.util.List;
 
 @Getter
 @Setter
-public class createBookingRequestDto {
+public class CreateBookingRequestDto {
     private Long userID;
     private Long showId;
     private List<Long> showSeatIds;

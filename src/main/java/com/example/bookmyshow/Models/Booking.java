@@ -18,6 +18,7 @@ public class Booking extends BaseModel {
     private List<Payment> payments;
     @Enumerated(EnumType.ORDINAL)
     private BookingStatus bookingStatus;
+    private int amount;
 }
 
 
